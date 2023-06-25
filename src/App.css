@@ -38,8 +38,14 @@
   }
 }
 
-.containerStyles {
-  width: 500px;
-  height: 280 px;
-  margin: 0, auto;
+.ImageSliderContainerStyles {
+  /* width: 1500px; */
+  max-width: 90%;
+  /* min-height: 1000px; */
+  height: 900px;
+  float: none;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  contain: layout;
 }

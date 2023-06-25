@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './ImageSliderStyles.css'
+import { Link } from 'react-router-dom'
+
 
 function ImageSlider({ slides }) {
 
@@ -13,36 +15,9 @@ function ImageSlider({ slides }) {
     const slideStyles = {
         width: "100%",
         height: "100%",
-        borderRadius: "10px",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        backgroundImage: `url(${slides[currentIndex].url})`,
-        // background-image: image("_MG_2984.jpg"),
-        /* background-image: "url(/_MG_2984.jpg)", */
-
-    }
-
-    const leftArrowStyles = {
-        position: "absolute",
-        top: "50%",
-        transform: "translate(0, -50%)",
-        left: "32px",
-        fontSize: "45px",
-        color: "#fff",
-        // zIndex: 1,
-        cursor: "pointer",
-    }
-
-
-    const rightArrowStyles = {
-        position: "absolute",
-        top: "50%",
-        transform: "translate(0, -50%)",
-        left: "32px",
-        fontSize: "45px",
-        color: "#fff#9F2B68",
-        // zIndex: 1,
-        cursor: "pointer",
+        backgroundImage: `url(${slides[currentIndex].src})`,
     }
 
     const goToPrevious = () => {
@@ -57,16 +32,15 @@ function ImageSlider({ slides }) {
         setCurrentIndex(newIndex);
     }
 
+
+
     return (
         <div style={sliderStyles}>
             <div style={slideStyles}></div>
+            <button type="button" class="btn btn-primary" onClick={goToPrevious}>Previous</button>
+            <button type="button" class="btn btn-success" onClick={goToNext}>Next</button>
+            <Link to='/'><button type="button" class="btn btn-info">Back to Home</button></Link>
 
-            <button type="button" class="btn btn-primary" onClick={goToPrevious}>Primary</button>
-            <button type="button" class="btn btn-success" onClick={goToNext}>Success</button>
-
-
-            {/* <div style={leftArrowStyles} onClick={goToPrevious}>L</div>
-            <div style={rightArrowStyles} onClick={goToNext}>R</div> */}
         </div>
     )
 }

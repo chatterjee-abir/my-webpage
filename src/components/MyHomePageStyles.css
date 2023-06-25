@@ -1,0 +1,22 @@
+.container-fluid {
+    display: block;
+    max-height: 40vh;
+    width: 100%;
+    margin: 0, 0;
+    padding: 0%;
+    object-fit: contain;
+    flex: left;
+}
+
+.my-footer {
+    height: 20%;
+    background-color: rgb(192, 191, 189);
+}
+
+.my-img {
+    min-width: 100%;
+    min-height: 70vh;
+    object-fit: contain;
+    padding: 0%;
+    margin: 0%;
+}

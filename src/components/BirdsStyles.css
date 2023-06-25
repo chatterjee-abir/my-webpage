@@ -1,0 +1,22 @@
+.bird-container {
+    display: block;
+    max-height: 100vh;
+    margin: 0, 0;
+    padding: 0%;
+    object-fit: cover;
+    background-color: rgb(185, 190, 192);
+    align-items: center;
+}
+
+.col-main-img-bird {
+    min-width: 80%;
+    min-height: 88vh;
+    padding: 0%;
+    margin: 10px, 10px;
+    object-fit: contain;
+}
+
+.img-info {
+    background-color: rgb(176, 171, 204);
+    min-height: 88vh;
+}
