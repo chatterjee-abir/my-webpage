@@ -1,0 +1,35 @@
+.card {
+    width: 18rem;
+
+}
+
+.col-bjs-main-img {
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-body .btn-primary {
+    background-color: rgb(141, 176, 240);
+    color: rgb(12, 11, 11);
+    text-decoration: underline;
+}
+
+/* .card-body .btn-primary:focus,
+.card-body .btn-primary:active,
+.card-body .btn-primary:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+} */
+
+/* .btn-primary {
+    color: white !important;
+    text-decoration: underline;
+    text-decoration-color: white !important;
+    background-color: inherit;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+} */

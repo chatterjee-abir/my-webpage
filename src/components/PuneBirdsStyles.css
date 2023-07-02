@@ -1,0 +1,11 @@
+/* .hstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+} */
+
+.col-location-card {
+    margin: 2px;
+    padding: 3px;
+}

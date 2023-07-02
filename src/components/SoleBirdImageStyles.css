@@ -1,0 +1,31 @@
+.carousel-inner {
+    transition-duration: 0.3s;
+    /* Adjust this value as needed */
+}
+
+.container .soleBirdImageCol {
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+    margin: 0% !important;
+    padding: 0% !important;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    /* flex-grow: 1; */
+}
+
+/* .footer-col {
+    background-color: #c93b3b;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */

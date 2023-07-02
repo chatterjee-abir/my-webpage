@@ -5,7 +5,7 @@ import './MyHomePageStyles.css'
 function MyHomePage() {
     return (
         <div>
-            <MyTopRow />
+            {/* <MyTopRow /> */}
             <div class="container-fluid">
                 <div className="row mid-row">
                     <div className="col-md-10 col-main-img">
