@@ -8,6 +8,7 @@ function UmredTadobaTR() {
 
     const umredTadobaTRArr = [
         { src: '/Images/AC-Tiger-Images/Umred-Tadoba-Images/_MG_2984-UmredTadobaCardCover.jpg', title: "2984-UmredTadobaCardCover", species: "Paras aka Taaru" },
+        { src: '/Images/AC-Tiger-Images/Umred-Tadoba-Images/_MG_0930.jpg', title: "0930", species: "Fairy Sub-Adults" },
         { src: '/Images/AC-Tiger-Images/Umred-Tadoba-Images/_MG_2390.jpg', title: "2390", species: "Sonam with cub" },
         { src: '/Images/AC-Tiger-Images/Umred-Tadoba-Images/_MG_2399.jpg', title: "2399", species: "Sonam with cub" },
         { src: '/Images/AC-Tiger-Images/Umred-Tadoba-Images/_MG_2401.jpg', title: "2401", species: "Sonam-Cub" },
