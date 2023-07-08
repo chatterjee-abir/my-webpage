@@ -15,13 +15,16 @@ function MyTopRow() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item active">
-                                <a className="nav-link" href="#"><Link to='/'>Home</Link> </a>
+                                {/* <Link to='/'>Home</Link> */}
+                                <a className="nav-link" href="#" style={{ color: 'white', textDecoration: 'none' }}><Link to='/'>Home</Link> </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#"><Link to='/Birds'>Birds</Link></a>
+                                {/* <Link to='/Birds'>Birds</Link> */}
+                                <a className="nav-link" href="#" style={{ color: 'white', textDecoration: 'none' }}><Link to='/Birds'>Birds</Link></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#"><Link to='/Mammals'>Mammals</Link></a>
+                                {/* <Link to='/Mammals'>Mammals</Link> */}
+                                <a className="nav-link" href="#" style={{ color: 'white', textDecoration: 'none' }}><Link to='/Mammals'>Mammals</Link></a>
                             </li>
                             <li className="nav-item">
                                 <a class="nav-link" href="#">Reptiles</a>
