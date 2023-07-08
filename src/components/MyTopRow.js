@@ -29,6 +29,12 @@ function MyTopRow() {
                             <li className="nav-item">
                                 <a class="nav-link" href="#">Reptiles</a>
                             </li>
+                            <li className="nav-item">
+                                <a class="nav-link" href="#">Blogs</a>
+                            </li>
+                            <li className="nav-item">
+                                <a class="nav-link" href="#">Feedback</a>
+                            </li>
                             <li className="nav-item dropdown">
                                 <a href="" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
                                 <ul className="dropdown-menu">

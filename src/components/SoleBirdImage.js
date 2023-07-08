@@ -70,12 +70,7 @@ const SoleBirdImage = () => {
                     >
                         <div className="carousel-inner" data-bs-wrap="true">
                             {myArr.map((myVar, index) => (
-                                <div
-                                    key={index}
-                                    className={`carousel-item ${index === activeIndex ? 'active' : ''
-                                        }`}
-                                    data-bs-interval="3000"
-                                >
+                                <div key={index} className={`carousel-item ${index === activeIndex ? 'active' : ''}`} data-bs-interval="3000" >
                                     <img src={myVar.src} className="img-fluid" alt="..." />
                                 </div>
                             ))}
