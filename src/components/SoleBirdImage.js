@@ -41,9 +41,9 @@ const SoleBirdImage = () => {
 
     useEffect(() => {
 
-        window.addEventListener('contextmenu', function (e) {
-            e.preventDefault();
-        }, false);
+        // window.addEventListener('contextmenu', function (e) {
+        //     e.preventDefault();
+        // }, false);
 
         const fetchExifData = async () => {
             const exifDataPromises = myArr.map((myVar) => loadImage(myVar.src));
