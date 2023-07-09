@@ -40,6 +40,11 @@ const SoleBirdImage = () => {
     };
 
     useEffect(() => {
+
+        window.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        }, false);
+
         const fetchExifData = async () => {
             const exifDataPromises = myArr.map((myVar) => loadImage(myVar.src));
             try {
@@ -52,10 +57,15 @@ const SoleBirdImage = () => {
 
         fetchExifData();
 
+
+
         return () => {
             // Cleanup if needed
         };
     }, [myArr]);
+
+
+
 
     return (
         <div className="container-fluid">
